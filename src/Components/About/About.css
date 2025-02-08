@@ -1,0 +1,75 @@
+.about {
+    flex-direction: column;
+    margin-top: 3em;
+  }
+  .about__name {
+    color: var(--clr-primary);
+  }
+  
+  .about__role {
+    margin-top: 1.2em;
+  }
+  .social-button-container{
+    display: flex;
+    justify-content: center; /* Centers buttons horizontally */
+    align-items: center; /* Aligns buttons vertically */
+    gap: 1em; /* Adds spacing between buttons */
+    margin-top: 30px;
+}
+  .about__desc {
+    font-size: 1rem;
+    max-width: 600px;
+  }
+  
+  .about__desc,
+  .about__contact {
+    margin-top: 2.4em;
+  }
+  
+  .about .link--icon {
+    margin-right: 0.8em;
+  }
+  
+  .about .btn--outline {
+    margin-right: 1em;
+  }
+  .btn--outline {
+    font-size: 1.2rem; /* Increase font size */
+    padding: 10px 20px; /* Adjust padding for better spacing */
+    display: flex; /* Align icon and text in a row */
+    align-items: center; /* Center vertically */
+    gap: 8px; /* Add space between icon and text */
+}
+
+  @media  screen  (max-width: 768px) {
+    .app .about {
+      align-items: flex-start;
+      margin-top: 2em;
+    }
+    .social-button-container{
+     margin-right: 30px;
+
+    }
+  }
+  
+
+  .btn--outline {
+    font-size: 1.2rem; 
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 2px solid var(--clr-primary);
+    color: var(--clr-primary); /* Default text and icon color */
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn--outline:hover {
+    background: var(--clr-primary); /* Change background */
+    color: white; /* Change text color */
+}
+
+.btn--outline:hover svg {
+    fill: white; /* Ensures icon color changes */
+}

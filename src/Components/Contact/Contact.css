@@ -1,0 +1,36 @@
+.contact {
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem; /* Increase font size */
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.contact-icon {
+  font-size: 1.5rem; /* Increase icon size */
+}
+
+.contact-btn:hover {
+  background-color: var(--clr-primary);
+  color: white;
+}
+
+.contact-btn:hover .contact-icon {
+  color: white; /* Ensure icon remains visible */
+}
