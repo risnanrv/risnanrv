@@ -78,6 +78,8 @@ const header = {
     'JavaScript',
     'React',
     'Git',
+    'Bootstrap',
+    'Tailwind CSS'
     
   ]
   
