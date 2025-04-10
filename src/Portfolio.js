@@ -9,7 +9,7 @@ const header = {
     name: 'Risnan Rv',
     role: 'FrontEnd Developer',
     description:
-      'Passionate Frontend Engineer crafting sleek, responsive, and dynamic web experiences. Skilled in React, JavaScript, HTML, and CSS, I bring ideas to life with pixel-perfect precision. Building intuitive UIs, optimizing performance, and pushing the web forward!',
+      'Aspiring Frontend Developer turning ideas into interactive, user-friendly websites. Skilled in React, JavaScript, HTML, and CSS, I focus on clean design, performance, and real-world functionality. Learning fast, building smarter, and leveling up with every project.',
 
     social: {
       linkedin: 'https://www.linkedin.com/in/risnanrv',
@@ -21,9 +21,24 @@ const header = {
     // projects can be added an removed
     // if there are no projects, Projects section won't show up
     {
+      name: 'Webzin',
+      description:
+        'WebZin is a freelance web development service turning client visions into powerful websites. From e-commerce to static sites, we craft responsive, modern designs tailored to user needs with a focus on quality, speed, and support. ',
+      stack: [ 'React' , 'CSS' ,'Tailwind CSS'],
+      livePreview:'https://webzin-dev.vercel.app/',
+    },
+    {
+      name: 'Zyvo',
+      description:
+        'Zyvo is a modern eCommerce website built with React. It features responsive design, product listing, cart functionality, and a sleek UI—crafted to deliver a smooth and user-friendly shopping experience. ',
+      stack: [ 'React' , 'CSS' ,'Bootstrap'],
+      sourceCode: 'https://github.com/risnanrv/zyvo-ecommerce.git',
+      livePreview: 'https://zyvo-azure.vercel.app/',
+    },
+    {
       name: 'Maczo Apple Store',
       description:
-        'Maczo Apple Store is a sleek and modern e-commerce platform for selling iphones,macbooks,ipad and  other Apple gadgets ',
+        'Maczo is a modern product showcase website built with React. It features sleek UI, responsive design, smooth navigation, and a scrollable card section to display iPhones and product details beautifully. ',
       stack: [ 'React' , 'CSS'],
       sourceCode: 'https://github.com/risnanrv/maczo.git',
       livePreview: 'https://maczo.vercel.app/',
@@ -79,7 +94,8 @@ const header = {
     'React',
     'Git',
     'Bootstrap',
-    'Tailwind CSS'
+    'Tailwind CSS',
+    'Figma'
     
   ]
   
